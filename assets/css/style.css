@@ -1,0 +1,21 @@
+header {
+	background-color: #ffffff;
+	font-family: 'Georgia';
+	position: relative;
+}
+
+#about {
+float: right;
+}
+
+#portfolio {
+float: right;
+}
+
+#contact {
+float: right;
+}
+
+body {
+	background-color: #ffffff;
+}
