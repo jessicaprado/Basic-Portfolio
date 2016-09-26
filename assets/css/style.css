@@ -3,8 +3,9 @@ body {
 }
 
 header {
-	background-color: white;
-	height: 100px;
+	background-color: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	height: 75px;
 }
 
 .headbox {
@@ -14,66 +15,90 @@ header {
 #jp {
 	position: relative;
 	float: left;
-	left: 20px;
+	left: 50px;
 	font-family: georgia;
 	font-size: 20px;
 	background-color: 4aaaa5;
-	color: white;
-	padding: 38px;
+	color: #ffffff;
+	height: 75px;
+	padding-left: 10px;
+	padding-right: 10px;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #333;
+* {
+	padding: 0;
+	margin: 0;
 }
 
-li {
-    float: right;
+nav ul {
+	margin: left;
 }
 
-li a {
-    display: block;
-    color: white;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
+nav ul li {
+	list-style-type: none;
+	width: 150px;
+	float: right;
 }
 
-li a:hover {
-    background-color: #111;
+nav li a {
+	text-decoration: none;
+	color: gray;
+	line-height: 50px;
+	display: block;
+	text-align: center;
+	border-right: 1px #ccc; 
 }
 
+nav li a:hover {
+	background-color: blue;
+	color: red;
+}
+
+#icons {
+	float: right;
 }
 
 #meBox {
-	position: relative;
-	top: 30px;
-	left: 20px;
+	float: left;
 	width: 650px;
+	height: 400px;
+	border: 1px solid red;
+	display: inline-block;
+	margin: 40px;
 }
 
 #picture {
 	float: left;
 	width: 250px;
-	position: relative;
-	left: 20px;
+	overflow: auto;
 	border: 1px solid red;
 }
 
 #bio {
-	float: left;
-	width: 400px;
+	width: 350px;
 	background-color: #ffffff;
 	border: 1px solid red;
+	float: right;
+	overflow: auto;
 }
 
 #sidebar {
-	position: relative;
-	right: -720px;
-	width: 270px;
+	float: left;
+	width: 250px;
+	height: 150px;
+	margin-top: 40px;
 	border: 1px solid red;
+	display: inline-block;
+
+}
+
+footer {
+	clear: both;
+	height: 50px;
+	margin-bottom: 0px;
+	background-color: #666666;
+	border-top: 4px solid #4aaaa5;
+	color: #777777;
+	text-align: center;
 
 }
