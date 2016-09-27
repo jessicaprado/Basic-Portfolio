@@ -28,7 +28,7 @@ header {
 	width: 960px;
 }
 
-#jp {
+.jp {
 	position: relative;
 	float: left;
 	left: 180px;
@@ -72,11 +72,11 @@ nav li a:hover {
 	color: red;
 }
 
-#icons {
+.icons {
 	margin-left: 70px;
 }
 
-#meBox {
+.meBox {
 	float: left;
 	width: 650px;
 	height: 400px;
@@ -114,7 +114,7 @@ nav li a:hover {
 	overflow: auto;
 }
 
-#sidebar {
+.sidebar {
 	float: left;
 	width: 270px;
 	height: 200px;
